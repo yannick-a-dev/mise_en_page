@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header,footer, .container{
+  font-size: 2rem;
+}
+
+header,footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
